@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table of Contents</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            text-align: center;
+            color: #000000;
+        }
+
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            overflow: scroll;
+            z-index: 1;
+            top: 0;
+        }
+
+        .left {
+            left: 0;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        .right {
+            right: 0;
+            background-color: #808080;
+            color: #000000;
+            width: 70%;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #808080;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="split left">
+        <ul id="links">
+            <li><a href="#overview" id="link1">HTML5 OVERVIEW</a></li>
+            <li><a href="#syntax" id="link2">HTML5 SYNTAX</a></li>
+            <li><a href="#attributes" id="link3">HTML5 ATTRIBUTES</a></li>
+            <li><a href="#events" id="link4">HTML5 EVENTS</a></li>
+            <li><a href="#forms" id="link5">HTML5 WEB FORMS 2.0</a></li>
+            <li><a href="#advd" id="link6">HTML5 AUDIO & VIDEO</a></li>
+        </ul>
+    </div>
+
+    <div class="split right">
+        <header>
+            <h2>Table of Contents</h2>
+        </header>
+        <ol>
+            <li>
+                <p id="overview">HTML5 OVERVIEW</p>
+                <ul>
+                    <li><p>Browser Support</p></li>
+                    <li><p>New Features</p></li>
+                </ul>
+            </li>
+            <li>
+                <p id="syntax">HTML5 SYNTAX</p>
+                <ul>
+                    <li><p>Backward Compatibility</p></li>
+                </ul>
+            </li>
+            <li>
+                <p id="attributes">HTML5 ATTRIBUTES</p>
+                <ul>
+                    <li><p>Standard Attributes</p></li>
+                    <li><p>Custom Attributes</p></li>
+                </ul>
+            </li>
+            <li>
+                <p id="events">HTML5 EVENTS</p>
+                <ul>
+                    <li><p>The script tag</p></li>
+                </ul>
+            </li>
+            <li>
+                <p id="forms">HTML5 WEB FORMS 2.0</p>
+                <ul>
+                    <li><p>The link tag</p></li>
+                </ul>
+            </li>
+            <li>
+                <p id="advd">HTML5 AUDIO & VIDEO</p>
+                <ul>
+                    <li><p>Embedding Video</p></li>
+                    <li><p>Embedding Audio</p></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+</body>
+
+</html>
